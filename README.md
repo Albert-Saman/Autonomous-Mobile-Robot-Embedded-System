@@ -18,7 +18,7 @@ The robot is designed to navigate a complex multi-zone track comprising:
 ---
 
 ## 📺 Video Demo
-[[Watch the video](https://www.youtube.com)
+[Watch the video](https://www.youtube.com)
 *(Click the link above to watch the robot in action)*
 
 ---
