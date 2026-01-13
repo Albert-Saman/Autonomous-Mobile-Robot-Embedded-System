@@ -118,14 +118,17 @@ Press Build All to compile and upload the hex file to the flash program memory o
 
 ### **Photos of the Robot**
 <p align="center">
-<img width="180" height="320" alt="image" src="https://github.com/user-attachments/assets/ee53add0-0ce7-469f-8da5-e001719eb2a7" />
-<img width="240" height="320" alt="image" src="https://github.com/user-attachments/assets/143f67c7-f085-40cc-987b-1b293877ed97" />
-<img width="240" height="320" alt="image" src="https://github.com/user-attachments/assets/ad2e24a2-42d9-465b-8456-c2428f97df63" />
+<img width="1054" height="593" alt="image" src="https://github.com/user-attachments/assets/524bac4d-86fe-40e6-813d-ff0629aa0dbe" />
+<img width="798" height="499" alt="image" src="https://github.com/user-attachments/assets/31003477-f32d-4e39-aef5-f88ab6d2f92d" />
+<img width="768" height="545" alt="image" src="https://github.com/user-attachments/assets/bf768f41-7c6b-4197-af54-6901aa9bf851" />
+<img width="777" height="639" alt="image" src="https://github.com/user-attachments/assets/52765f5b-c599-4368-916a-22c14c764ee7" />
 </p>
 
+### **T-Intersection**
 <p align="center">
-<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/d6eec96f-8e2b-4e5a-9ca2-81e94afc8c66" />
-<img width="267" height="240" alt="image" src="https://github.com/user-attachments/assets/1fb86510-b50a-4103-8d17-4979c904c440" />
+<img width="513" height="416" alt="image" src="https://github.com/user-attachments/assets/2a83825b-5d3e-4cf6-8a83-99bf266a204a" />
+<img width="519" height="366" alt="image" src="https://github.com/user-attachments/assets/8933e287-c5f6-461a-8fa1-9c3c96b86cab" />
+<img width="519" height="380" alt="image" src="https://github.com/user-attachments/assets/c46056a9-5276-4339-8899-e4804a026022" />
 </p>
 
 # 📚 References
