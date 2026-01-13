@@ -1,8 +1,14 @@
 # Autonomous Mobile Robot (PIC16F877A) 🤖
 
-![Language](https://img.shields.io/badge/Language-Embedded%20C-blue)
-![Platform](https://img.shields.io/badge/Platform-PIC16F877A-green)
-![Compiler](https://img.shields.io/badge/Compiler-MikroC-orange)
+![Language](https://img.shields.io/badge/Language-Embedded%20C-blue?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-PIC16F877A-green?style=flat-square)
+![Compiler](https://img.shields.io/badge/Compiler-MikroC%20PRO-orange?style=flat-square)
+![Electrical Design Simulation](https://img.shields.io/badge/Simulation-Proteus%209-purple?style=flat-square)
+![Status](https://img.shields.io/badge/Status-Completed-success?style=flat-square)
+
+> **Course:** Embedded Systems (22442) | **Institution:** Princess Sumaya University for Technology
+
+---
 
 ## 📖 Project Overview
 This project details the design and implementation of an autonomous mobile robot built for the **Embedded Systems** course at **Princess Sumaya University for Technology**. 
@@ -26,9 +32,15 @@ The robot is designed to navigate a complex multi-zone track comprising:
 ## 🛠️ Hardware Specifications
 
 ### **Microcontroller & Power**
-* **MCU:** PIC16F877A (Standalone PCB)
+* **MCU:** Microchip PIC16F877A (40 pins)
 * **Clock:** 8MHz Crystal Oscillator
-* **Driver:** L293D H-Bridge
+* **Actuators:**
+    * 2x DC Gear Motors
+    * 1x SG90 Micro Servo
+    * 1x Active Piezo Buzzer
+    * 1x Yellow LED
+* **Drivers:** L293D Dual H-Bridge Motor Driver
+* **Sensors:** HC-SR04 (Ultrasonic), LDR (Light), TCRT5000 (IR Line/Obstacle)
 * **Power:** 12V Li-Po (Motors) + 5V Regulated (Logic)
 
 ### **Pin Configuration Table**
@@ -50,21 +62,60 @@ The robot is designed to navigate a complex multi-zone track comprising:
 | **Servo Motor** | `RE2` | Output (PWM Flag) |
 
 ---
+## 💻 Software Implementation
 
-## ⚙️ Software Architecture
+### The "No-Library" Challenge
+To demonstrate low-level understanding, standard libraries were replaced with custom drivers:
 
-The system operates on a **Finite State Machine (FSM)**. 
+1.  **Ultrasonic Driver (Timer1):**
+    * Instead of `PulseIn()`, we configured **Timer1** with a 1:2 prescaler.
+    * The code gates the timer while the Echo pin is HIGH.
+    * **Formula:** `Distance (cm) = Timer_Ticks / 58` (Derived for 8MHz Clock).
+
+2.  **Software PWM (Timer0):**
+    * **Timer0** generates an interrupt every 1 ms.
+    * A global PWM counter (0-99) increments on every interrupt.
+    * Motor pins are toggled based on a comparison between the counter and the target speeds `speed_req_left` and `speed_req_right`, allowing for smooth motion.
+
+### Finite State Machine
+The main loop executes a non-blocking switch-case state machine:
 
 ### **Key Features**
 1.  **Custom Ultrasonic Driver:** Uses **Timer1** to measure Echo pulse width with 1µs precision.
 2.  **Software PWM:** Uses **Timer0 Interrupts** to generate variable duty cycles for motor speed control on standard digital pins.
 3.  **Adaptive Logic:** Distinguishes between a physical wall (Obstacle) and a 30° incline (Bump) by analyzing the change in sensor data.
 
+
+
+## 🏁 Getting Started
+Prerequisites
+- MikroC PRO for PIC (Compiler)
+- EasyPIC development kit board
+- Proteus 9 Professional (Simulation - Optional)
+
+### Installation
+Clone the Repo:
+
+`git clone `
+
+#### Open Project:
+
+Launch MikroC and open Code (.mcppi)
+
+#### Build:
+
+Press Build All to compile and upload the hex file to the flash program memory of the PIC. Ensure the clock is set to 8.000000 MHz.
+
+## 📸 Gallery
+
 ### **Logic Flowchart**
 <img width="2712" height="1826" alt="image" src="https://github.com/user-attachments/assets/c5320106-f605-4e3f-b7d9-4955a4b34d36" />
 
 ### **Electrical Connections Design in Proteus Software**
 <img width="2648" height="1463" alt="image" src="https://github.com/user-attachments/assets/49b9c059-c1fc-45c3-9d9a-4ac54c2021e6" />
+
+### **Photos of the Robot**
+
 
 # 📚 References
 - Microchip Technology Inc., "PIC16F877A Data Sheet," 2013.
