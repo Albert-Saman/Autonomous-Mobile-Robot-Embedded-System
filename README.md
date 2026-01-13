@@ -85,8 +85,6 @@ The main loop executes a non-blocking switch-case state machine:
 2.  **Software PWM:** Uses **Timer0 Interrupts** to generate variable duty cycles for motor speed control on standard digital pins.
 3.  **Adaptive Logic:** Distinguishes between a physical wall (Obstacle) and a 30° incline (Bump) by analyzing the change in sensor data.
 
-
-
 ## 🏁 Getting Started
 Prerequisites
 - MikroC PRO for PIC (Compiler)
@@ -96,7 +94,7 @@ Prerequisites
 ### Installation
 Clone the Repo:
 
-`git clone `
+`gh repo clone Albert-Saman/Autonomous-Mobile-Robot-Embedded-System`
 
 #### Open Project:
 
