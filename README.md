@@ -107,13 +107,26 @@ Press Build All to compile and upload the hex file to the flash program memory o
 ## 📸 Gallery
 
 ### **Logic Flowchart**
+<p align="center">
 <img width="2712" height="1826" alt="image" src="https://github.com/user-attachments/assets/c5320106-f605-4e3f-b7d9-4955a4b34d36" />
+</p>
 
 ### **Electrical Connections Design in Proteus Software**
+<p align="center">
 <img width="2648" height="1463" alt="image" src="https://github.com/user-attachments/assets/49b9c059-c1fc-45c3-9d9a-4ac54c2021e6" />
+</p>
 
 ### **Photos of the Robot**
+<p align="center">
+<img width="180" height="320" alt="image" src="https://github.com/user-attachments/assets/ee53add0-0ce7-469f-8da5-e001719eb2a7" />
+<img width="240" height="320" alt="image" src="https://github.com/user-attachments/assets/143f67c7-f085-40cc-987b-1b293877ed97" />
+<img width="240" height="320" alt="image" src="https://github.com/user-attachments/assets/ad2e24a2-42d9-465b-8456-c2428f97df63" />
+</p>
 
+<p align="center">
+<img width="320" height="240" alt="image" src="https://github.com/user-attachments/assets/d6eec96f-8e2b-4e5a-9ca2-81e94afc8c66" />
+<img width="267" height="240" alt="image" src="https://github.com/user-attachments/assets/1fb86510-b50a-4103-8d17-4979c904c440" />
+</p>
 
 # 📚 References
 - Microchip Technology Inc., "PIC16F877A Data Sheet," 2013.
