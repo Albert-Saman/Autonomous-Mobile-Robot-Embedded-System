@@ -92,7 +92,7 @@ Prerequisites
 - Proteus 9 Professional (Simulation - Optional)
 
 ### Installation
-Clone the Repo:
+#### Clone the Repo:
 
 `gh repo clone Albert-Saman/Autonomous-Mobile-Robot-Embedded-System`
 
