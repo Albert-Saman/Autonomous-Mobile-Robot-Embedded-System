@@ -106,6 +106,11 @@ Press Build All to compile and upload the hex file to the flash program memory o
 
 ## 📸 Gallery
 
+### **The Path**
+<p align="center">
+<img width="1000" height="1370" alt="image" src="https://github.com/user-attachments/assets/2d4f8afc-d9bc-4bac-9e04-81f3d448b334" />
+</p>
+
 ### **Logic Flowchart**
 <p align="center">
 <img width="2712" height="1826" alt="image" src="https://github.com/user-attachments/assets/c5320106-f605-4e3f-b7d9-4955a4b34d36" />
@@ -118,17 +123,10 @@ Press Build All to compile and upload the hex file to the flash program memory o
 
 ### **Photos of the Robot**
 <p align="center">
-<img width="1054" height="593" alt="image" src="https://github.com/user-attachments/assets/524bac4d-86fe-40e6-813d-ff0629aa0dbe" />
-<img width="798" height="499" alt="image" src="https://github.com/user-attachments/assets/31003477-f32d-4e39-aef5-f88ab6d2f92d" />
-<img width="768" height="545" alt="image" src="https://github.com/user-attachments/assets/bf768f41-7c6b-4197-af54-6901aa9bf851" />
-<img width="777" height="639" alt="image" src="https://github.com/user-attachments/assets/52765f5b-c599-4368-916a-22c14c764ee7" />
-</p>
-
-### **T-Intersection**
-<p align="center">
-<img width="513" height="416" alt="image" src="https://github.com/user-attachments/assets/2a83825b-5d3e-4cf6-8a83-99bf266a204a" />
-<img width="519" height="366" alt="image" src="https://github.com/user-attachments/assets/8933e287-c5f6-461a-8fa1-9c3c96b86cab" />
-<img width="519" height="380" alt="image" src="https://github.com/user-attachments/assets/c46056a9-5276-4339-8899-e4804a026022" />
+<img width="914" height="519" alt="image" src="https://github.com/user-attachments/assets/0984fc66-b7ad-43a1-8f58-0da276072952" />
+<img width="910" height="643" alt="image" src="https://github.com/user-attachments/assets/67e905b9-6f5c-49ba-9141-b82349b4bf82" />
+<img width="994" height="594" alt="image" src="https://github.com/user-attachments/assets/30698fcd-e055-4186-80db-1cb76b17b33d" />
+<img width="931" height="710" alt="image" src="https://github.com/user-attachments/assets/8a5b476e-ef67-45ef-b375-2a65053b7a29" />
 </p>
 
 # 📚 References
