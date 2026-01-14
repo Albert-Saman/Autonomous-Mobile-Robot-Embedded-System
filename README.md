@@ -24,8 +24,7 @@ The robot is designed to navigate a complex multi-zone track comprising:
 ---
 
 ## 📺 Video Demo
-[Watch the video]((https://www.youtube.com/shorts/G4AApCQPvUc))
-*(Click the link above to watch the robot in action)*
+👉 [Watch the robot in action](https://www.youtube.com/shorts/G4AApCQPvUc)
 
 ---
 
@@ -98,7 +97,7 @@ Prerequisites
 
 #### Open Project:
 
-Launch MikroC and open Code (.mcppi)
+Launch MikroC and open Code (.c)
 
 #### Build:
 
